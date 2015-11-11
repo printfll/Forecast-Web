@@ -1,0 +1,287 @@
+body{
+	background-image:url(bg.jpg);
+
+}
+
+img{
+	max-width: 100%;
+}
+
+body h2{
+	text-align:center;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+.form-group{
+	text-align: left;
+	float: left;
+
+	
+	margin-bottom: 10px;
+}
+
+#searchForm{
+	color:white;
+	padding: 1%;
+	margin: 0px;
+}
+
+label span{
+	color:red;
+}
+
+.warnLabel{
+	text-align: left;
+	color: red;
+	font-size:12px;
+	
+}
+
+.btn{
+	width: 100px;
+}
+
+#powerBy{
+	width: 300px;
+	float:right;
+	text-align:right;
+	margin-top: 5px;
+}
+
+#result{
+	
+	padding: 0px;
+
+}
+
+#nowTable{
+		width: 100%;
+		background-color: rgb(242,222,222);
+	}
+
+.hiddenTable{
+	text-align:center;
+	width:94%;
+	height: 100%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	
+	background-color: rgb(233,233,233);
+	
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.hiddenTable tr:first-child{
+	height: 40px;
+	border: thin solid rgb(200,200,200);
+
+}
+
+.hiddenTable tr:last-child{
+	height: 30px;
+}
+
+@media all and (max-width: 970px) {
+	
+
+	#search{
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	#result{
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	#dayTable{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+}
+
+@media all and (min-width: 991px){
+	#day{
+		background-color: transparent;
+	}
+}
+
+
+@media all and (min-width: 992px){
+	#day{
+		background-color: black;
+	}
+	
+	.dayCol{
+		margin-right: 2%;
+	}
+}
+
+
+
+#hourTable{
+	background-color: white;
+	text-align: center;;
+	width: 100%;
+	
+}
+
+
+#hourTable th{
+	background-color: rgb(51,122,183);
+	text-align: center;
+	color: white;
+}
+
+
+#nowIcon{
+	
+	margin-top: 2%;
+	max-width:100px;
+	text-align: center;
+	margin-bottom:2%; 
+	
+}
+
+
+#nowInstr{
+	
+	text-align:center;
+	color:white;
+
+}
+
+.hiddenTD{
+	text-align:center;
+	width:100%;
+	background-color: rgb(233,233,233);
+}
+
+.hiddenDiv{
+	margin-top: 2%;
+	height: 100%;
+	width: 100%;
+	
+	border-radius: 4px;
+	border: rgb(171,171,171);
+}
+
+#dayTable{
+	
+	color: white;
+	text-align: center;
+	
+}
+
+#dayCol0{
+	background-color: rgb(54,125,181);
+}
+
+#dayCol1{
+	background-color: rgb(233,67,67);
+}
+
+#dayCol2{
+	background-color: rgb(230,142,79);
+}
+
+#dayCol3{
+	background-color: rgb(164,167,57);
+}
+
+#dayCol4{
+	background-color: rgb(145,108,160);
+}
+
+#dayCol5{
+	background-color: rgb(243,124,126);
+}
+
+#dayCol6{
+	background-color: rgb(206,69,113);
+}
+
+
+
+.dayCol{
+	border-radius: 8px;
+	border: 0;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+
+#tabs li{
+	background-color: white;
+	border-radius: 4px 4px 0 0;
+	margin-right: 2px;
+}
+
+#tabs li .active{
+	border-radius: 4px 4px 0 0;
+	background-color: rgb(51,122,183);
+}
+
+
+
+#modal-img{
+	width: 60%;
+	max-width: 100px;
+	
+}
+.modal-tag{
+	float: left;
+	
+	text-align: center;
+}
+
+.tag-title{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.tag-val{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.modal-body{
+	width: 100%;
+}
+
+#basicMap {
+	
+   min-width: 50%;
+   height: 500px; 
+    
+}
+
+ #map {
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+        }
+
+#fbshare{
+	background-color: transparent;
+	border: 0;
+	float: right;
+}
+
+.lay{
+	text-align: center;
+}
+
+#sup{
+	font-size: 20px;
+	position: relative; 
+	top:-46px; 
+	left: 2px;
+}
